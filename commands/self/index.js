@@ -4,4 +4,4 @@ module.exports = {
   execute(msg) {
     msg.channel.send(`Username: ${msg.author.username}\nID: ${msg.author.id}`)
   },
-}
+} 

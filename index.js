@@ -2,6 +2,7 @@
 require('dotenv').config();
 
 const TOKEN = process.env.DISCORD_TOKEN
+const PREFIX = process.env.PREFIX
 
 const Discord = require('discord.js')
 const client = new Discord.Client()
@@ -45,7 +46,7 @@ function processMessage(message) {
   let content = message.content
   let arguments = content.split(' ')
   return {
-    command: arguments.shift().replace('.', ''),
+    command: arguments.shift().replace(PREFIX, ''),
     args: arguments
   }
 }
