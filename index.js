@@ -13,10 +13,8 @@ Object.keys(botCommands).map(key => {
   client.commands.set(botCommands[key].name, botCommands[key])
 })
 
-// const R6API = require('r6api.js')
-// const siegeApi = new R6API(EMAIL, PASSWORD)
-
 client.on('ready', () => {
+  client.user.setActivity('.help for commands', { type: '' })
   console.log(`Logged in as ${client.user.tag}!`)
 })
 
