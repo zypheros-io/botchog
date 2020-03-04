@@ -26,6 +26,7 @@
   "dependencies": {
     "discord.js": "^12.0.1",
     "dotenv": "^8.2.0",
+    "insult": "0.0.3",
     "one-liner-joke": "^1.2.0",
     "r6api.js": "^1.2.1"
   }

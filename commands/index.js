@@ -4,4 +4,5 @@ module.exports = {
   Avatar: require('./avatar'),
   R6: require('./r6'),
   N: require('./n'),
+  Insult: require('./insult')
 };

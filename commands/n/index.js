@@ -8,5 +8,5 @@ module.exports = {
       'exclude_tags': ['racist']
     });
     msg.reply(joke.body)
-  }
+  },
 }
